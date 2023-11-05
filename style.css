@@ -13,7 +13,6 @@ body {
     float: left;
     text-align: center;
     overflow: hidden;
-    position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;    
     font-weight: bold;
@@ -37,7 +36,6 @@ li {
     background-size: cover;
     width:100vw;
     height:100vh;
-    z-index: -1;
 
 }
 
@@ -54,6 +52,7 @@ li {
     color: white;
     background-color: red;
     border-radius: 10px;
+    z-index: 50;
 }
 
 #serie{
